@@ -1,6 +1,9 @@
 name: access_settings_menu_example
 description: Demonstrates how to use the access_settings_menu plugin.
 
+environment:
+    sdk: ">=2.6.0 <3.0.0"
+
 dependencies:
   flutter:
     sdk: flutter

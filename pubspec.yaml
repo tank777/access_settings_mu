@@ -4,6 +4,9 @@ version: 0.0.1
 author: gyagapen
 homepage: https://github.com/gyagapen/access_settings_mu
 
+environment:
+    sdk: ">=2.6.0 <3.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
