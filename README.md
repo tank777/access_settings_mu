@@ -10,6 +10,17 @@ The IOS section has not been implemented.
 
 To use this plugin, add access_settings_menu as a dependency in your pubspec.yaml file.
 
+Add this to your package's pubspec.yaml file:
+```dart
+
+dependencies:
+  access_settings_menu:
+      git:
+        url: https://github.com/tank777/access_settings_mu.git
+        ref: 0.0.3
+
+```
+
 List of Android settings menu can be found at [here](https://developer.android.com/reference/android/provider/Settings).
 Please refer to contants variable starting by ACTION (e.g. ACTION_ACCESSIBILITY_SETTINGS refers to accessibility settings menu).
 
